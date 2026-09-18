@@ -1,0 +1,16 @@
+{
+  "name": "pen-fight-arena-server",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Phase 2 multiplayer backend for Pen Fight Arena — Quick Match, private rooms, turn-authoritative match state, shot-replay relay, reconnection.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": { "node": ">=18" },
+  "dependencies": {
+    "express": "^4.19.2",
+    "cors": "^2.8.5",
+    "socket.io": "^4.7.5"
+  }
+}
